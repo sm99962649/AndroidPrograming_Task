@@ -99,6 +99,10 @@
 
 ## **Markdown Grammer**
 
-- 
+- Headings
+
+| **Command** | **Description** |
+| --- | --- |
+| #제목 | 텍스트 앞에 #기호를 추가한다. 1~6개에 따라 제목 크기가 결정된다. |
 
 http://humit.tistory.com/194
