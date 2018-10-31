@@ -107,12 +107,12 @@
 
 - Styling text
 
-| **Command** | **Description** |
+| **Command** | **Description** | **Output** |
 | --- | --- |
-| \*\*Text\*\* | 이 텍스트는 굵게 표시된다. |
-| \*Text\* | 이 텍스트는 기울임 꼴로 표시된다. |
-| \~\~Text\~\~ | 이 텍스트에 취소선이 표시된다. |
-| \*\*This text is \_extremely\_ important\*\* | 이 텍스트는 굵게 기울임 꼴로 표시된다. |
+| \*\*Text\*\* | 이 텍스트는 굵게 표시된다. | **Text** |
+| \*Text\* | 이 텍스트는 기울임 꼴로 표시된다. | *Text* |
+| \~\~Text\~\~ | 이 텍스트에 취소선이 표시된다. | ~~Text~~ |
+| \*\*This text is \_displayed in bold\_ italics.\*\* | **This text is _displayed in bold_ italics.** | |
 
 - Quoting text
 
