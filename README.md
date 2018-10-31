@@ -132,4 +132,10 @@
 | --- | --- |
 | \[Text\]\(Link\) | 지정된 텍스트에 링크를 만들수 있다. |
 
+- Ignoring Markdown formatting
+
+| **Command** | **Description** |
+| --- | --- |
+| \Text | Markdown 형식을 무시하도록 GitHub에 지시한다. |
+
 [자료 출처](http://humit.tistory.com/194)
