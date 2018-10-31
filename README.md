@@ -138,4 +138,5 @@
 | --- | --- |
 | \Text | Markdown 형식을 무시하도록 GitHub에 지시한다. |
 
-[자료 출처](http://humit.tistory.com/194)
+| **[자료 출처](http://humit.tistory.com/194)** |
+| ---: |
