@@ -8,14 +8,14 @@
 
 ## **Git Instruction**
 
-- Add
+- **Add**
 
 | **Command** | **Description** |
 | --- | --- |
 | git add `파일` | stage area에 파일을 추가하여 commit 할 수 있도록 한다. |
 
 
-- Commit
+- **Commit**
 
 | **Command** | **Description** |
 | --- | --- |
@@ -23,7 +23,7 @@
 | git commit -a -m `”메시지”` | 이미 추가된 파일이 수정 중인 상황에서 stage area에 올리지 않아도 stage area에 올리고 바로 commit 한다. |
 
 
-- Remote
+- **Remote**
 
 | **Command** | **Description** |
 | --- | --- |
@@ -31,7 +31,7 @@
 | git remote -v | 원격 저장소 목록을 보여준다. |
 
 
-- Clone
+- **Clone**
 
 | **Command** | **Description** |
 | --- | --- |
@@ -39,7 +39,7 @@
 | git clone –depth `숫자` `주소` | 프로젝트가 많은 커밋들을 가지고 있을 경우 내려받는데 오래 걸리므로 depth 옵션을 사용하면 해당 숫자만큼의 최신 커밋들만 가지고 프로젝트를 내려받는다. |
 
 
-- Push
+- **Push**
 
 | **Command** | **Description** |
 | --- | --- |
@@ -47,7 +47,7 @@
 | git push origin +master | origin 원격 저장소에 master 브랜치에 추가된 스냅샷들을 강제로 올린다. |
 
 
-- Stash
+- **Stash**
 
 | **Command** | **Description** |
 | --- | --- |
@@ -58,7 +58,7 @@
 | git stash apply –index | Stage 상태로 스택에 저장된 stash를 Stage 상태까지 복원한다. |
 
 
-- Tag
+- **Tag**
 
 | **Command** | **Description** |
 | --- | --- |
@@ -67,7 +67,7 @@
 | git tag -l ‘v1.0′ | 1.0버전의 태그들만 검색하여 보여준다. |
 
 
-- diff
+- **diff**
 
 | **Command** | **Description** |
 | --- | --- |
@@ -75,7 +75,7 @@
 | git diff `파일` | 해당 파일의 변경사항을 보여준다. |
 
 
-- branch
+- **branch**
 
 | **Command** | **Description** |
 | --- | --- |
@@ -83,7 +83,7 @@
 | git branch `브랜치` | 브랜치를 생성한다. |
 
 
-- checkout
+- **checkout**
 
 | **Command** | **Description** |
 | --- | --- |
@@ -91,14 +91,14 @@
 | git checkout -b `브랜치` | 브랜치가 없으면 브랜치를 생성하고 이동한다. |
 
 
-- merge
+- **merge**
 
 | **Command** | **Description** |
 | --- | --- |
 | git merge `브랜치` | 현재 브랜치에서 입력한 브랜치와 합친다. |
 
 
-- reset
+- **reset**
 
 | **Command** | **Description** |
 | --- | --- |
@@ -110,14 +110,14 @@
 
 ## **Markdown Grammer**
 
-- Headings
+- **Headings**
 
 | **Command** | **Description** |
 | --- | --- |
 | #Text | 제목이 설정된다. 기호의 개수가 1~6개에 따라 제목 크기가 결정된다. |
 
 
-- Styling text
+- **Styling text**
 
 | **Command** | **Description** | **Output** |
 | --- | --- | --- |
@@ -127,28 +127,28 @@
 | \*\*This text is \_displayed in bold\_ italics.\*\* | 이 텍스트는 굵은 기울임 꼴로 표시된다. |**This text is _displayed in bold_ italics.** |
 
 
-- Quoting text
+- **Quoting text**
 
 | **Command** | **Description** |
 | --- | --- |
 | >Text | 텍스트를 인용할 수 있다. |
 
 
-- Quoting code
+- **Quoting code**
 
 | **Command** | **Description** |
 | --- | --- |
 | \`Text\` | 단일 백틱으로 문장 내에서 코드 나 명령을 호출 할 수 있다. |
 
 
-- Link
+- **Link**
 
 | **Command** | **Description** |
 | --- | --- |
 | \[Text\]\(Link\) | 지정된 텍스트에 링크를 만들수 있다. |
 
 
-- Ignoring Markdown formatting
+- **Ignoring Markdown formatting**
 
 | **Command** | **Description** |
 | --- | --- |
